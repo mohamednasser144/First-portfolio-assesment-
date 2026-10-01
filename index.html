@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      body {
+        background-color: rgb(255, 253, 253);
+      }
+
+      .name {
+        color: rgb(68, 68, 255);
+        /*display: flex;*/
+        /* justify-content: center; */
+        /* align-items: center;     */
+        display: block;
+        text-align: center;
+      }
+
+      h3 {
+        color: hsl(240, 100%, 63%);
+        text-align: center;
+      }
+
+      h2 {
+        color: rgb(68, 68, 255);
+      }
+
+      .blueimg {
+        float: left;
+        border-radius: 8px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+      }
+      .table-logo {
+        width: 150px;
+        padding: 15px;
+      }
+      .skills-heading {
+        background-color: #e0f2fe;
+        /* Light blue highlight */
+        padding: 8px 12px;
+        margin-top: 20px;
+        font-size: 25px;
+      }
+
+      .summary {
+        font-size: 15px;
+      }
+
+      .about-me {
+        width: 1000px;
+        margin: 0 auto;
+      }
+
+      th {
+        background-color: rgb(0, 0, 151);
+        color: white;
+        padding: 10px;
+      }
+
+      input {
+        margin: 10px;
+      }
+      .section {
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="name">Mohamed Nasser portfolio</h1>
+    <h3>Web developer</h3>
+    <div class="about-me" style="width: 1000px; margin: 0 auto">
+      <h2>About Me</h2>
+      <div class="nasser">
+        <img class="blueimg" src="after edit crop.jpg" alt="my photo" width="150px" />
+      </div>
+
+      <div class="monasser">
+        <p class="summary" style="font-size: 15px">
+          Hello! I'm Mohamed Nasser, an aspiring Front-End Developer with a strong interest in creating modern, responsive, and user-friendly web
+          experiences. I have a background in graphic design and hands-on experience with HTML, CSS, and JavaScript. My journey into web development
+          started through learning front-end technologies and building my understanding of how websites are designed and developed. I'm continuously
+          improving my coding skills and learning modern web development practices, with a focus on writing clean, efficient code and creating
+          responsive interfaces that provide a great user experience.
+        </p>
+        <p class="skills-heading">Skills</p>
+        <ul>
+          <li><a href="">HTML</a></li>
+          <li><a href="">CSS</a></li>
+          <li><a href="">JavaScript</a></li>
+          <li><a href="">Angular</a></li>
+          <li><a href="">React</a></li>
+        </ul>
+      </div>
+      <h2>Experience Timeline</h2>
+
+      <!-- Table -->
+      <table border="1" width="">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Logo</th>
+            <th>Role</th>
+            <th>Key Achievements</th>
+            <th>Dates</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">TechCorp Solutions</td>
+            <td rowspan="2">
+              <img src="download.jpg" alt="TechCorp Logo" class="table-logo" />
+            </td>
+            <td>Senior Full Stack Developer</td>
+            <td>
+              <ul>
+                <li>Lead development of web applications</li>
+                <li>Mentor junior developers</li>
+                <li>Architect scalable solutions</li>
+              </ul>
+            </td>
+            <td>Jan 2023 - Present</td>
+          </tr>
+          <tr>
+            <td>Full Stack Developer</td>
+            <td>
+              <ul>
+                <li>Developed responsive web applications</li>
+                <li>Collaborated with design teams</li>
+                <li>Optimized application performance</li>
+              </ul>
+            </td>
+            <td>2021 - 2023</td>
+          </tr>
+          <tr>
+            <td>Digital Agency Pro</td>
+            <td>
+              <img src="download.png" alt="Digital Agency Logo" class="table-logo" />
+            </td>
+            <td>Frontend Developer</td>
+            <td>
+              <ul>
+                <li>Built user interfaces from mockups</li>
+                <li>Implemented responsive designs</li>
+                <li>Conducted code reviews</li>
+              </ul>
+            </td>
+            <td>2019 - 2020</td>
+          </tr>
+          <tr>
+            <td>Web Design Studio</td>
+            <td>
+              <img src="download m.png" alt="Web Design Studio Logo" class="table-logo" />
+            </td>
+            <td>Junior Web Developer</td>
+            <td>
+              <ul>
+                <li>Maintained existing websites</li>
+                <li>Fixed bugs and implemented features</li>
+                <li>Learned best practices</li>
+              </ul>
+            </td>
+            <td>2019 - 2020</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5">Total Experience: 5+ years in web development</td>
+          </tr>
+        </tfoot>
+      </table>
+      <!-- contact me -->
+      <h2>Contact Me</h2> 
+      <p>Feel free to reach out to my using form below, I'd like to hear from you!</p>
+
+      <legend>Project Details</legend>
+      <form class="section">
+        <div>
+          <label for="text">First name</label>
+          <input type="text" />
+          <label for="two">last name</label>
+          <input type="text" />
+        </div>
+        <br />
+        <div>
+          <label for="text">Email</label>
+          <input type="text" />
+          <label for="two">Phone numbre</label>
+          <input type="text" />
+        </div>
+        <br />
+        <div>
+          <label for="da">date</label>
+          <input type="date" />
+
+          <label for="time">time</label>
+          <input type="time" />
+        </div>
+        <!-- <hr /> -->
+      </form>
+
+      <legend>Project Details</legend>
+      <form class="section">
+        <div>
+          <label for="text">Project Type:</label>
+          <input type="text" />
+          <label for="two">Project Description</label>
+          <textarea name="" id="" required> </textarea>
+        </div>
+        <br />
+        <p>Budget Range:</p>
+        <div class="option-item">
+          <input type="radio" id="budget-1" name="budget" />
+          <label for="budget-1">Under $5,000</label>
+        </div>
+        <div class="option-item">
+          <input type="radio" id="budget-2" name="budget" />
+          <label for="budget-2">$5,000 - $10,000</label>
+        </div>
+        <div class="option-item">
+          <input type="radio" id="budget-3" name="budget" />
+          <label for="budget-3">$10,000 - $25,000</label>
+        </div>
+        <div class="option-item">
+          <input type="radio" id="budget-4" name="budget" />
+          <label for="budget-4">Over $25,000</label>
+        </div>
+        <!-- <hr /> -->
+        <div class="options-group">
+          <p>Services Required (Check all that apply):</p>
+          <div class="option-item">
+            <input type="checkbox" id="" name="" />
+            <label for="service-ui">UI/UX Design</label>
+          </div>
+          <div class="option-item">
+            <input type="checkbox" id="" name="" />
+            <label for="">Frontend Development</label>
+          </div>
+          <div class="option-item">
+            <input type="checkbox" id="" name="" />
+            <label for="">Backend Development</label>
+          </div>
+          <div class="option-item">
+            <input type="checkbox" id="" name="" />
+            <label for="">Hosting & Deployment</label>
+          </div>
+          <div class="option-item">
+            <input type="checkbox" id="" name="" />
+            <label for="">Maintenance & Support</label>
+          </div>
+        </div>
+      </form>
+      <div class="submit-container">
+        <button type="submit" class="submit-btn">Submit Inquiry</button>
+        <button type="clear">Clear Form</button>
+      </div>
+    </div>
+  </body>
+</html>
